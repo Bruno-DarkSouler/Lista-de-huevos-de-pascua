@@ -15,6 +15,11 @@ function cargarDatosCoto(){
                 <div class="contenedor_imagen">
                     <img src="${producto.imagen}" alt="Imagen producto">
                 </div>
+                <div class="oferta">
+                <span>
+                ${producto.oferta}
+                </span>
+                </div>
                 <div class="contenedor_info">
                     <p>${producto.nombre}</p> 
                     <span>Precio por 100g: \$${producto.precio}</span>
@@ -68,6 +73,11 @@ function cargarDatosDia(){
             <div class="producto">
                 <div class="contenedor_imagen">
                     <img src="${producto.imagen}" alt="Imagen producto">
+                </div>
+                <div class="oferta">
+                <span>
+                ${producto.oferta}
+                </span>
                 </div>
                 <div class="contenedor_info">
                     <p>${producto.nombre}</p> 
